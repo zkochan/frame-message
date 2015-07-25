@@ -30,8 +30,8 @@ function FrameMessage(opts) {
   function onMessage(e) {
     var event = parse(e.data);
     if (event.channel === _this._channel) {
-      for (var i = 0, len = _this.recievers.length; i < len; i++) {
-        _this.recievers[i].apply({}, event.args);
+      for (var i = 0, len = _this._recievers.length; i < len; i++) {
+        _this._recievers[i].apply({}, event.args);
       }
     }
   }

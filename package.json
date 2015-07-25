@@ -4,7 +4,7 @@
   "description": "A class for sending and recieving messages to/from iframes and windows.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,10 @@
   "homepage": "https://github.com/zkochan/frame-message#readme",
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
+  },
+  "devDependencies": {
+    "fosify-test": "^0.1.5",
+    "foso": "^0.9.6",
+    "gulp": "^3.9.0"
   }
 }
