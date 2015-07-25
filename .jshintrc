@@ -17,6 +17,7 @@
   "undef": true,
   "quotmark": "single",
   "maxlen": 80,
+  "expr": true,
   "trailing": true, // Prohibit trailing whitespaces.
   "curly": true,
   "globals": { // Globals variables.
