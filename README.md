@@ -16,4 +16,4 @@ npm install --save frame-message
 
 ## License
 
-MIT
+MIT © [Zoltan Kochan](https://www.kochan.io)
